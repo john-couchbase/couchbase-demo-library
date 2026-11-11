@@ -27,3 +27,5 @@
 
 /* Skill cards are the link; a quiet chevron indicates navigation. */
 a.skill-card{position:relative;padding-right:48px;transition:border-color .15s,background .15s}a.skill-card:hover{border-color:var(--muted);background:var(--subtle)}.card-chevron{position:absolute;right:20px;top:50%;transform:translateY(-50%);font-size:25px;line-height:1;color:var(--muted)}
+
+a.setup-intro{display:block;position:relative;padding-right:48px;transition:background .15s}a.setup-intro:hover{background:var(--surface)}
