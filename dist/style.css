@@ -24,3 +24,6 @@
 
 /* Repository actions share the same secondary button treatment. */
 .skill-card .skill-repo-button,.setup-intro .skill-repo-button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 16px;border:1px solid var(--line);border-radius:6px;background:var(--subtle);color:inherit;font-size:13px;font-weight:500;line-height:20px;text-align:center;margin-top:8px;min-width:132px}.setup-intro .skill-repo-button{margin-top:22px}.skill-repo-button span{display:none}.skill-card .skill-repo-button:hover,.setup-intro .skill-repo-button:hover{background:var(--surface);border-color:var(--muted);text-decoration:none}
+
+/* Skill cards are the link; a quiet chevron indicates navigation. */
+a.skill-card{position:relative;padding-right:48px;transition:border-color .15s,background .15s}a.skill-card:hover{border-color:var(--muted);background:var(--subtle)}.card-chevron{position:absolute;right:20px;top:50%;transform:translateY(-50%);font-size:25px;line-height:1;color:var(--muted)}
