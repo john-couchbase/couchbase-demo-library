@@ -21,3 +21,6 @@
 
 /* Equal paired actions: demo first, source second. */
 .demo-actions{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px;margin-top:auto}.demo-actions .button,.demo-actions .repo-link{min-height:44px;display:flex;align-items:center;justify-content:center;gap:8px;margin:0;padding:10px 8px;border-radius:6px;font-size:13px;font-weight:500;line-height:20px;white-space:nowrap}.demo-actions .repo-link{border:1px solid var(--line);background:var(--subtle);color:inherit}.demo-actions .repo-link:hover{background:var(--surface);border-color:var(--muted);text-decoration:none}.demo-actions a span{display:none}
+
+/* Repository actions share the same secondary button treatment. */
+.skill-card .skill-repo-button,.setup-intro .skill-repo-button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 16px;border:1px solid var(--line);border-radius:6px;background:var(--subtle);color:inherit;font-size:13px;font-weight:500;line-height:20px;text-align:center;margin-top:8px;min-width:132px}.setup-intro .skill-repo-button{margin-top:22px}.skill-repo-button span{display:none}.skill-card .skill-repo-button:hover,.setup-intro .skill-repo-button:hover{background:var(--surface);border-color:var(--muted);text-decoration:none}
