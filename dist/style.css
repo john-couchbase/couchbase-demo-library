@@ -16,3 +16,5 @@
 
 /* Compact availability badge, readable in both themes. */
 .live-label{padding:3px 8px;border:1px solid #a9c9b4;border-radius:4px;background:#edf6ef;color:#28613c;line-height:18px}.dark .live-label{border-color:#426b50;background:#23372a;color:#b4e3c2}
+
+.repo-link{display:flex;align-items:center;justify-content:space-between;min-height:44px;margin-top:8px;font-size:13px;font-weight:500;color:var(--link);padding-inline:2px}.repo-link:hover{text-decoration:underline}footer nav{flex-wrap:wrap;gap:12px 22px}
