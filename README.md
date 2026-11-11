@@ -25,8 +25,8 @@ Each demo opens separately. This repository contains the library website and its
 
 ## The skills
 
-- [Couchbase Design](https://github.com/jkupchanko/agent-skills/tree/main/couchbase-design) covers fonts, colors, controls, and layouts.
-- [UI Pattern Repair](https://github.com/jkupchanko/agent-skills/tree/main/ui-pattern-repair) helps fix a UI issue across matching components and screen sizes.
+- [Couchbase Design](https://github.com/john-couchbase/agent-skills/tree/main/couchbase-design) covers fonts, colors, controls, and layouts.
+- [UI Pattern Repair](https://github.com/john-couchbase/agent-skills/tree/main/ui-pattern-repair) helps fix a UI issue across matching components and screen sizes.
 - [Couchbase AIDP Setup](https://github.com/john-couchbase/couchbase-aidp-setup) covers API keys, models, SQL functions, memory, catalog, tracing, and troubleshooting. It stays in its own repository.
 
 Use the two design skills together when changing an interface. Use the setup skill when connecting or troubleshooting the backend.
