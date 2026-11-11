@@ -18,3 +18,6 @@
 .live-label{padding:3px 8px;border:1px solid #a9c9b4;border-radius:4px;background:#edf6ef;color:#28613c;line-height:18px}.dark .live-label{border-color:#426b50;background:#23372a;color:#b4e3c2}
 
 .repo-link{display:flex;align-items:center;justify-content:space-between;min-height:44px;margin-top:8px;font-size:13px;font-weight:500;color:var(--link);padding-inline:2px}.repo-link:hover{text-decoration:underline}footer nav{flex-wrap:wrap;gap:12px 22px}
+
+/* Equal paired actions: demo first, source second. */
+.demo-actions{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px;margin-top:auto}.demo-actions .button,.demo-actions .repo-link{min-height:44px;display:flex;align-items:center;justify-content:center;gap:8px;margin:0;padding:10px 8px;border-radius:6px;font-size:13px;font-weight:500;line-height:20px;white-space:nowrap}.demo-actions .repo-link{border:1px solid var(--line);background:var(--subtle);color:inherit}.demo-actions .repo-link:hover{background:var(--surface);border-color:var(--muted);text-decoration:none}.demo-actions a span{display:none}
