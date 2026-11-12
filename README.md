@@ -70,3 +70,5 @@ Vercel serves the contents of `dist/` through the existing `couchbase-demo-libra
 Before sharing, check the links, phone layout, both themes, and preview images. Keep credentials and local Vercel settings out of GitHub.
 
 Writing reviewed with the [Humanizer skill](https://github.com/blader/humanizer/blob/main/SKILL.md).
+
+Review Room is listed as a local-preview internal tool, not a live demo. Its card records what is built and what remains pending. Source is in the private john-couchbase/couchbase-review-room repository; invitation email delivery and a shared hosted workspace are not connected. No localhost link is offered to public visitors.
